@@ -13,7 +13,7 @@
                     </form-label>
                 </slot>
             </div>
-            <div :class="fieldClasses">
+            <div :class="fieldClasses" style="width: inherit">
                 <slot name="field" />
 
                 <help-text class="error-text mt-2 text-danger" v-if="showErrors && hasError">
